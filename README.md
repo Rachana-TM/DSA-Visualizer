@@ -108,5 +108,5 @@ DSA-Visualizer/
 
 
 ## Screenshot
-![image alt][
+![image alt][https://github.com/Rachana-TM/DSA-Visualizer/blob/main/Screenshot%20(195).png?raw=true]
 
