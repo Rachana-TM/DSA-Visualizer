@@ -99,12 +99,14 @@ DSA-Visualizer/
 ├── sorting.js
 └── README.md
 
-## Screenshot
-![image alt][]
-
 
 ## 🛠 Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
+
+
+## Screenshot
+![image alt][
+
