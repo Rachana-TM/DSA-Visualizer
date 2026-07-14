@@ -80,7 +80,24 @@ An interactive **Data Structures and Algorithms (DSA) Visualizer** built using *
 - Adjustable Animation Speed
 - Smooth CSS Animations
 
----
+----
+## 📂 Project Structure
+
+```
+DSA-Visualizer/
+│
+├── index.html
+├── style.css
+├── app.js
+├── array.js
+├── stack.js
+├── queue.js
+├── linkedlist.js
+├── tree.js
+├── graph.js
+├── searching.js
+├── sorting.js
+└── README.md
 
 ## 🛠 Technologies Used
 
