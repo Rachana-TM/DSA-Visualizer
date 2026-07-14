@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Visualizer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>DSA Visualizer</h2>
+
+            <button onclick="loadModule('array')">Array</button>
+
+            <button onclick="loadModule('stack')">Stack</button>
+
+            <button onclick="loadModule('queue')">Queue</button>
+
+            <button onclick="loadModule('linkedlist')">Linked List</button>
+
+            <button onclick="loadModule('tree')">Tree</button>
+
+            <button onclick="loadModule('graph')">Graph</button>
+
+            <button onclick="loadModule('sorting')">Sorting</button>
+
+            <button onclick="loadModule('searching')">Searching</button>
+
+
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <!-- Header -->
+
+            <header>
+
+                <h1 id="moduleTitle">
+                    Array Visualizer
+                </h1>
+
+            </header>
+
+            <!-- Controls -->
+
+            <section class="controls">
+
+                <input
+                    type="text"
+                    id="mainInput"
+                    placeholder="Enter values">
+
+                <input
+                    type="text"
+                    id="operationInput"
+                    placeholder="Operation value">
+
+                <div id="buttonsContainer">
+
+                </div>
+
+            </section>
+
+            <!-- Speed Control -->
+
+            <section class="speed-section">
+
+                <label>Animation Speed</label>
+
+                <input
+                    type="range"
+                    id="speedSlider"
+                    min="100"
+                    max="2000"
+                    value="500">
+
+            </section>
+            <div class="animation-controls">
+
+                <button id="playBtn" class="control-btn">▶</button>
+            
+                <button id="pauseBtn" class="control-btn">⏸</button>
+            
+                <button id="resetBtn" class="control-btn">↺</button>
+            
+            </div>
+
+            <!-- Visualization -->
+
+            <section
+                id="visualizationArea"
+                class="visualization-area">
+
+                Select a module to begin.
+
+            </section>
+
+            <!-- Bottom Panels -->
+
+            <section class="bottom-panels">
+
+                <!-- Complexity -->
+
+                <div class="panel">
+
+                    <h3>Complexity Analysis</h3>
+
+                    <p id="timeComplexity">
+                        Time Complexity:
+                    </p>
+
+                    <p id="spaceComplexity">
+                        Space Complexity:
+                    </p>
+
+                </div>
+
+                <!-- Code -->
+
+                <div class="panel">
+
+                    <h3>Code Preview</h3>
+
+                    <pre id="codeBlock">
+Select an operation...
+                    </pre>
+
+                </div>
+
+                <!-- Messages -->
+
+                <div class="panel">
+
+                    <h3>Messages</h3>
+
+                    <p id="messageArea">
+                        Ready...
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+    <script src="array.js"></script>
+    <script src="stack.js"></script>
+    <script src="queue.js"></script>
+    <script src="linkedlist.js"></script>
+    <script src="sorting.js"></script>
+    <script src="app.js"></script>
+    <script src="searching.js"></script>
+    <script src="tree.js"></script>
+    <script src="graph.js"></script>
+
+</body>
+
+</html>
